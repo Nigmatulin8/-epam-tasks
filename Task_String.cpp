@@ -1,3 +1,4 @@
+/* –î–∞–Ω–∞ —Å—Ç—Ä–æ–∫–∞, –≤—ã–≤–µ—Å—Ç–∏ —Ç–æ–ª—å–∫–æ —Ç–µ —Å–ª–æ–≤–∞, –∫–æ—Ç–æ—Ä—ã–µ –≤—Å—Ç—Ä–µ—á–∞—é—Ç—Å—è –≤ –Ω–µ–π —Ç–æ–ª—å–∫–æ –æ–¥–∏–Ω —Ä–∞–∑.  */
 #include <iostream>
 #include <string>
 
@@ -40,7 +41,7 @@ int main(){
 std::string trimStr(std::string str) {
 	int index = 0;
 	std::string output = "";
-	while (str[index] == ' ') index++; //œÓıÓ‰ËÏ ÏËÏÓ ÔÓ·ÂÎÓ‚ ‚ Ì‡˜‡ÎÂ ÒÚÓÍË
+	while (str[index] == ' ') index++; //remove spaces from beginning 
 	while(str[index]) {
 		if((str[index] >= 'a' && str[index] <= 'z') || (str[index] >= 'A' && str[index] <= 'Z')
 		|| (str[index] >= '1' && str[index] <= '9') || str[index] == ' ') {
