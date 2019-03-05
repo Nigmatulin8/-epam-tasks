@@ -1,3 +1,4 @@
+/* Напишите функцию, которая для отсортированного массива целых чисел определяет, содержится ли в нем заданное значение. */
 #include <iostream>
 
 int binarySearch(int mas[], int item, int l_border, int r_border);
